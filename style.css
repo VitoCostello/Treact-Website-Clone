@@ -72,6 +72,10 @@ h1 {
   font-size: 45px;
   font-weight: 800;
 }
+
+.bold--light{
+  font-weight: 400;
+}
 /* 
 
 NAVBAR ↓
@@ -344,6 +348,45 @@ QUALITY WORK ↓
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.quality--text{
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.quality--text--wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.quality--title{
+  margin-top: 20px;
+  font-weight: 900;
+  color: #243E63;
+  width: 90%;
+}
+.quality--para {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 90%;
+
+}
+
+.quality__hero__screenshot--wrapper {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.quality__hero__screenshot--img {
+  display: flex;
+  width: 100%;
+}
+
+.quality--button {
+  display: flex;
+  flex-direction: column;
+  width: 33%
 }
 
 /* 
