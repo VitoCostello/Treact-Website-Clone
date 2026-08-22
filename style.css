@@ -116,6 +116,9 @@ nav {
 }
 .nav__link {
   margin: 24px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .contact {
@@ -414,6 +417,55 @@ STEPS ↓
   align-items: center;
 }
 
+.steps--text{
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.steps--text--wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 475px;
+}
+
+.steps--title{
+  margin-top: 20px;
+  font-weight: 900;
+  color: #243E63;
+  width: 90%;
+}
+.steps--para {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 90%;
+
+}
+
+.steps__hero__screenshot--wrapper {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border-radius: 4px;
+}
+.steps__hero__screenshot--img {
+  display: flex;
+  width: 100%;
+}
+.steps__sub-header{
+  font-weight: 400;
+}
+.number__steps--grey {
+  color: rgb(203 213 224);
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.number__steps{
+list-style: none;
+}
+
+
 /* 
 
 VALUES ↓
@@ -521,11 +573,21 @@ MOBILE RESPONSIVENESS ↓
   }
 
   .input--wrapper{
-    display: contents;
+    display: flex;
+
   }
 
-  .about-me__input{
+
+
+
+  .about-me--text--wrapper  {
     width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-me--title{
+    width: 640px;
   }
 
 }
