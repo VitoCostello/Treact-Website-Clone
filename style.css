@@ -107,13 +107,20 @@ nav {
 .nav__links {
   display: flex;
   align-items: center;
+  max-width: 1000px;
 }
 
+.login-signup{
+  display: flex;
+  align-items: center;
+}
 .nav__link {
-  text-decoration: none;
   margin: 24px;
 }
 
+.contact {
+  width:90px;
+}
 .btn__menu {
   display: none;
   background: transparent;
@@ -184,6 +191,7 @@ nav {
 
 .nav__button {
   padding: 12px 30px;
+  width: 120px;
 }
 
 /* 
@@ -239,8 +247,8 @@ header .row {
   display: flex;
   align-items: center;
 
-  width: 100%;
-  max-width: 550px;
+  width: 450px;
+  max-width: 500px;
 
   padding: 8px;
   border: 2px solid #e1e6ee;
@@ -377,6 +385,8 @@ QUALITY WORK ↓
   display: flex;
   justify-content: center;
   width: 50%;
+  border: solid 1px rgb(226,232,240) ;
+  border-radius: 4px;
 }
 .quality__hero__screenshot--img {
   display: flex;
@@ -386,7 +396,10 @@ QUALITY WORK ↓
 .quality--button {
   display: flex;
   flex-direction: column;
-  width: 33%
+  width: 140px;
+  padding: 14px 0px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 
@@ -483,6 +496,10 @@ MOBILE RESPONSIVENESS ↓
   footer {
     padding: 80px 32px;
   }
+
+      .nav__links {
+    display: none;
+}
 }
 
 @media (max-width: 768px) {
@@ -498,6 +515,19 @@ MOBILE RESPONSIVENESS ↓
   #pricing .row {
     margin-top: 40px;
   }
+
+  .nav__links {
+    display: none;
+  }
+
+  .input--wrapper{
+    display: contents;
+  }
+
+  .about-me__input{
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 640px) {
@@ -511,8 +541,8 @@ MOBILE RESPONSIVENESS ↓
   main {
     margin-bottom: 80px;
   }
-
   .nav__links {
     display: none;
   }
+
 }
