@@ -1446,23 +1446,129 @@ PRICING ↓
   font-size: 20px;
   align-items: center;
   padding: 30px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 40px;
+  box-shadow: rgba(0, 0, 0, 0) 0px, 0px, 0px, 0px;
+
 }
 
 .personal {
   border: solid 1px rgb(226, 232, 240);
-  border-radius: 20px;
+  border-radius: 10px;
+}
+
+.green__top{
+  height: 8px;
+  width: 100%;
+  background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+
+}
+
+.red__top{
+  height: 8px;
+  width: 100%;
+  background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
 .business {
   background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
-  border-radius: 20px;
+  border-radius: 10px;
 }
-
+.plan__title{
+  padding: 20px;
+}
 .price {
   font-size: 40px;
+  padding-top: 0px;
+
 }
 .enterprise{
   border: solid 1px rgb(226, 232, 240);
-  border-radius: 20px;
+  border-radius: 10px;
+}
+
+.monthly--grey {
+  color: rgb(160, 174, 192);
+}
+
+.month{
+  letter-spacing: 1.6px;
+  font-size: 16px;
+
+  padding: 20px;
+}
+
+.personal__plan__perks {
+  width: 100%;
+  border-top: solid 1.6px rgb(226, 232, 240);
+  border-bottom: solid 1.6px rgb(226, 232, 240);
+  text-align: center;
+}
+
+
+.businiess__plan__perks {
+  width: 100%;
+  border-top: solid 1.6px rgb(102, 126, 234);
+  border-bottom: solid 1.6px rgb(102, 126, 234);
+
+  text-align: center;
+}
+
+.enterprise__plan__perks {
+  width: 100%;
+  border-top: solid 1.6px rgb(226, 232, 240);
+  border-bottom: solid 1.6px rgb(226, 232, 240);
+  text-align: center;
+}
+.perk__title{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0px;
+  margin-top: 40px;
+}
+
+.perk--grey{
+  color: rgb(113, 128, 150);
+}
+.perk{
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+
+.white__space{
+  height: 8px;
+}
+
+.button{
+  width: 50%;
+  margin: 20px;
+  margin-top: 40px;
+  padding: 20px 6px;
+
+  font-size: 14px;
+}
+
+.business__button{
+  color: rgb(100, 21, 255);
+  background-color: rgb(247, 250, 252);
+}
+
+.personal__button{
+  background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.enterprise__button{
+  background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 /* 
 
