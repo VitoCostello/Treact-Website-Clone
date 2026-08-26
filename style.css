@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", system-ui;
-  color: #243e63;
 }
 
 body {
@@ -75,16 +74,16 @@ h1 {
   font-weight: 700;
 }
 
-.big--bold{
+.big--bold {
   font-size: 45px;
   font-weight: 800;
 }
 
-.bold--light{
+.bold--light {
   font-weight: 400;
 }
 
-.bold--medium{
+.bold--medium {
   font-weight: 600;
 }
 /* 
@@ -121,7 +120,7 @@ nav {
   max-width: 1000px;
 }
 
-.login-signup{
+.login-signup {
   display: flex;
   align-items: center;
 }
@@ -133,7 +132,7 @@ nav {
 }
 
 .contact {
-  width:90px;
+  width: 90px;
 }
 .btn__menu {
   display: none;
@@ -272,7 +271,6 @@ header .row {
 }
 
 .logo-strip--wrapper {
-
   display: flex;
   flex-direction: column;
   margin-top: 60px;
@@ -282,7 +280,7 @@ header .row {
   opacity: 0.7;
 }
 
-.logo-strip--text{
+.logo-strip--text {
   opacity: 0.7;
   color: grey;
   font-weight: 700;
@@ -326,28 +324,26 @@ FEATURES ↓
   margin-top: 60px;
 }
 
-.service__text--wrapper{
+.service__text--wrapper {
   padding: 20px;
   padding-top: 0;
-
 }
 
-.service--heading{
+.service--heading {
   text-align: left;
   padding: 0px;
   font-weight: 600;
 }
 
-.service--para{
+.service--para {
   display: flex;
   width: 100%;
   color: grey;
-  line-height: 2.0;
+  line-height: 2;
   padding-top: 12px;
-
 }
 
-.service__img--wrapper{
+.service__img--wrapper {
   display: flex;
   flex-shrink: 0;
   border: solid 1px rgb(226, 226, 226);
@@ -372,7 +368,7 @@ QUALITY WORK ↓
   align-items: center;
 }
 
-.quality--text{
+.quality--text {
   font-weight: 600;
   letter-spacing: 2px;
 }
@@ -382,112 +378,110 @@ QUALITY WORK ↓
   width: 50%;
 }
 
-.quality--title{
+.quality--title {
   margin-top: 20px;
   font-weight: 900;
-  color: #243E63;
+  color: #243e63;
   width: 90%;
 }
 .quality--para {
   margin-top: 40px;
   margin-bottom: 40px;
   width: 90%;
-
 }
 
 .quality__hero__screenshot--wrapper {
   display: flex;
   justify-content: center;
   width: 50%;
-    text-size-adjust: 100%;
-    tab-size: 4;
-    --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
-    --onBackgroundLight: rgba(36, 36, 36, 0.10);
-    --background: #FFF;
-    --onBackground: #242424;
-    --accent: #0F71F0;
-    --default-black: rgba(0, 0, 0, 0.00);
-    --backgroundShadow: rgba(0, 0, 0, 0.14);
-    --onAccent: #FFF;
-    --onAccentDisabled: #B2D4FC;
-    --onBackgroundDisabled: #919191;
-    --onBackgroundSecondary: #5B5B5B;
-    --accentHighContrast: #0E68DD;
-    --backgroundButtonDisabled: rgba(68, 68, 68, 0.10);
-    --onBackgroundExtraLight: #F4F4F4;
-    --scrollTrack: #E8E8E8;
-    --scrollThumb: #A1A1A1;
-    --buttonHover: #E0E0E0;
-    --critical: #D40404;
-    --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
-    --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
-    --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
-    --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
-    --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
-    --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
-    line-height: inherit;
-    font-family: Inter, system-ui;
-    --tw-text-opacity: 1;
-    color: rgb(36 62 99 / var(--tw-text-opacity));
-    box-sizing: border-box;
-    border-width: 0px;
-    border-style: solid;
-    border-color: rgb(226, 232, 240);
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pan-y: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pinch-zoom: var(--tw-empty,/*!*/ /*!*/);
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: var(--tw-empty,/*!*/ /*!*/);
-    --tw-slashed-zero: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-figure: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-spacing: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-fraction: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(66 153 225 / 0.5);
-    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
-    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-opacity: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-sepia: var(--tw-empty,/*!*/ /*!*/);
-    margin-left: 0px;
-    margin-right: 0px;
-    max-width: none;
-    position: relative;
-    flex-shrink: 0;
-    width: 50%;
+  text-size-adjust: 100%;
+  tab-size: 4;
+  --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
+  --onBackgroundLight: rgba(36, 36, 36, 0.1);
+  --background: #fff;
+  --onBackground: #242424;
+  --accent: #0f71f0;
+  --default-black: rgba(0, 0, 0, 0);
+  --backgroundShadow: rgba(0, 0, 0, 0.14);
+  --onAccent: #fff;
+  --onAccentDisabled: #b2d4fc;
+  --onBackgroundDisabled: #919191;
+  --onBackgroundSecondary: #5b5b5b;
+  --accentHighContrast: #0e68dd;
+  --backgroundButtonDisabled: rgba(68, 68, 68, 0.1);
+  --onBackgroundExtraLight: #f4f4f4;
+  --scrollTrack: #e8e8e8;
+  --scrollThumb: #a1a1a1;
+  --buttonHover: #e0e0e0;
+  --critical: #d40404;
+  --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
+  --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
+  --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
+  --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
+  --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
+  --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
+  line-height: inherit;
+  font-family: Inter, system-ui;
+  --tw-text-opacity: 1;
+  color: rgb(36 62 99 / var(--tw-text-opacity));
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pan-y: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pinch-zoom: var(--tw-empty, /*!*/ /*!*/);
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: var(--tw-empty, /*!*/ /*!*/);
+  --tw-slashed-zero: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-figure: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-spacing: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-fraction: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(66 153 225 / 0.5);
+  --tw-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-opacity: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-sepia: var(--tw-empty, /*!*/ /*!*/);
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: none;
+  position: relative;
+  flex-shrink: 0;
+  width: 50%;
 }
 .quality__hero__screenshot--img {
   display: flex;
   width: 100%;
-
 }
 
 .quality--button {
@@ -498,277 +492,282 @@ QUALITY WORK ↓
   align-items: center;
   justify-content: center;
 }
-.left__circle{
-      text-size-adjust: 100%;
-    tab-size: 4;
-    --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
-    --onBackgroundLight: rgba(36, 36, 36, 0.10);
-    --background: #FFF;
-    --onBackground: #242424;
-    --accent: #0F71F0;
-    --default-black: rgba(0, 0, 0, 0.00);
-    --backgroundShadow: rgba(0, 0, 0, 0.14);
-    --onAccent: #FFF;
-    --onAccentDisabled: #B2D4FC;
-    --onBackgroundDisabled: #919191;
-    --onBackgroundSecondary: #5B5B5B;
-    --accentHighContrast: #0E68DD;
-    --backgroundButtonDisabled: rgba(68, 68, 68, 0.10);
-    --onBackgroundExtraLight: #F4F4F4;
-    --scrollTrack: #E8E8E8;
-    --scrollThumb: #A1A1A1;
-    --buttonHover: #E0E0E0;
-    --critical: #D40404;
-    --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
-    --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
-    --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
-    --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
-    --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
-    --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
-    line-height: inherit;
-    font-family: Inter, system-ui;
-    --tw-text-opacity: 1;
-    color: rgb(36 62 99 / var(--tw-text-opacity));
-    box-sizing: border-box;
-    border-width: 0px;
-    border-style: solid;
-    border-color: rgb(226, 232, 240);
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pan-y: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pinch-zoom: var(--tw-empty,/*!*/ /*!*/);
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: var(--tw-empty,/*!*/ /*!*/);
-    --tw-slashed-zero: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-figure: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-spacing: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-fraction: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(66 153 225 / 0.5);
-    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
-    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-opacity: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-sepia: var(--tw-empty,/*!*/ /*!*/);
-    display: block;
-    pointer-events: none;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    z-index: -10;
-    height: 16rem;
-    width: 16rem;
-    --tw-translate-x: -66.67%;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-    opacity: 0.05;
+.left__circle {
+  text-size-adjust: 100%;
+  tab-size: 4;
+  --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
+  --onBackgroundLight: rgba(36, 36, 36, 0.1);
+  --background: #fff;
+  --onBackground: #242424;
+  --accent: #0f71f0;
+  --default-black: rgba(0, 0, 0, 0);
+  --backgroundShadow: rgba(0, 0, 0, 0.14);
+  --onAccent: #fff;
+  --onAccentDisabled: #b2d4fc;
+  --onBackgroundDisabled: #919191;
+  --onBackgroundSecondary: #5b5b5b;
+  --accentHighContrast: #0e68dd;
+  --backgroundButtonDisabled: rgba(68, 68, 68, 0.1);
+  --onBackgroundExtraLight: #f4f4f4;
+  --scrollTrack: #e8e8e8;
+  --scrollThumb: #a1a1a1;
+  --buttonHover: #e0e0e0;
+  --critical: #d40404;
+  --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
+  --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
+  --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
+  --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
+  --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
+  --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
+  line-height: inherit;
+  font-family: Inter, system-ui;
+  --tw-text-opacity: 1;
+  color: rgb(36 62 99 / var(--tw-text-opacity));
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pan-y: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pinch-zoom: var(--tw-empty, /*!*/ /*!*/);
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: var(--tw-empty, /*!*/ /*!*/);
+  --tw-slashed-zero: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-figure: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-spacing: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-fraction: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(66 153 225 / 0.5);
+  --tw-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-opacity: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-sepia: var(--tw-empty, /*!*/ /*!*/);
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: -10;
+  height: 16rem;
+  width: 16rem;
+  --tw-translate-x: -66.67%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 0.05;
 }
-.right__dots__svg{
-      text-size-adjust: 100%;
-    tab-size: 4;
-    --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
-    --onBackgroundLight: rgba(36, 36, 36, 0.10);
-    --background: #FFF;
-    --onBackground: #242424;
-    --accent: #0F71F0;
-    --default-black: rgba(0, 0, 0, 0.00);
-    --backgroundShadow: rgba(0, 0, 0, 0.14);
-    --onAccent: #FFF;
-    --onAccentDisabled: #B2D4FC;
-    --onBackgroundDisabled: #919191;
-    --onBackgroundSecondary: #5B5B5B;
-    --accentHighContrast: #0E68DD;
-    --backgroundButtonDisabled: rgba(68, 68, 68, 0.10);
-    --onBackgroundExtraLight: #F4F4F4;
-    --scrollTrack: #E8E8E8;
-    --scrollThumb: #A1A1A1;
-    --buttonHover: #E0E0E0;
-    --critical: #D40404;
-    --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
-    --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
-    --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
-    --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
-    --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
-    --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
-    line-height: inherit;
-    font-family: Inter, system-ui;
-    box-sizing: border-box;
-    border-width: 0px;
-    border-style: solid;
-    border-color: rgb(226, 232, 240);
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pan-y: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pinch-zoom: var(--tw-empty,/*!*/ /*!*/);
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: var(--tw-empty,/*!*/ /*!*/);
-    --tw-slashed-zero: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-figure: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-spacing: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-fraction: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(66 153 225 / 0.5);
-    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
-    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-opacity: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-sepia: var(--tw-empty,/*!*/ /*!*/);
-    display: block;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    z-index: -10;
-    height: 5rem;
-    width: 5rem;
-    --tw-translate-x: 50%;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-    --tw-translate-y: 50%;
-    fill: rgb(100, 21, 255);
-    --tw-text-opacity: 1;
-    color: rgb(100 21 255 / var(--tw-text-opacity));
+.right__dots__svg {
+  text-size-adjust: 100%;
+  tab-size: 4;
+  --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
+  --onBackgroundLight: rgba(36, 36, 36, 0.1);
+  --background: #fff;
+  --onBackground: #242424;
+  --accent: #0f71f0;
+  --default-black: rgba(0, 0, 0, 0);
+  --backgroundShadow: rgba(0, 0, 0, 0.14);
+  --onAccent: #fff;
+  --onAccentDisabled: #b2d4fc;
+  --onBackgroundDisabled: #919191;
+  --onBackgroundSecondary: #5b5b5b;
+  --accentHighContrast: #0e68dd;
+  --backgroundButtonDisabled: rgba(68, 68, 68, 0.1);
+  --onBackgroundExtraLight: #f4f4f4;
+  --scrollTrack: #e8e8e8;
+  --scrollThumb: #a1a1a1;
+  --buttonHover: #e0e0e0;
+  --critical: #d40404;
+  --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
+  --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
+  --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
+  --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
+  --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
+  --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
+  line-height: inherit;
+  font-family: Inter, system-ui;
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pan-y: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pinch-zoom: var(--tw-empty, /*!*/ /*!*/);
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: var(--tw-empty, /*!*/ /*!*/);
+  --tw-slashed-zero: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-figure: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-spacing: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-fraction: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(66 153 225 / 0.5);
+  --tw-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-opacity: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-sepia: var(--tw-empty, /*!*/ /*!*/);
+  display: block;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: -10;
+  height: 5rem;
+  width: 5rem;
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-translate-y: 50%;
+  fill: rgb(100, 21, 255);
+  --tw-text-opacity: 1;
+  color: rgb(100 21 255 / var(--tw-text-opacity));
 }
-.bottom__dots__svg{
-  
-         text-size-adjust: 100%;
-    tab-size: 4;
-    --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
-    --onBackgroundLight: rgba(36, 36, 36, 0.10);
-    --background: #FFF;
-    --onBackground: #242424;
-    --accent: #0F71F0;
-    --default-black: rgba(0, 0, 0, 0.00);
-    --backgroundShadow: rgba(0, 0, 0, 0.14);
-    --onAccent: #FFF;
-    --onAccentDisabled: #B2D4FC;
-    --onBackgroundDisabled: #919191;
-    --onBackgroundSecondary: #5B5B5B;
-    --accentHighContrast: #0E68DD;
-    --backgroundButtonDisabled: rgba(68, 68, 68, 0.10);
-    --onBackgroundExtraLight: #F4F4F4;
-    --scrollTrack: #E8E8E8;
-    --scrollThumb: #A1A1A1;
-    --buttonHover: #E0E0E0;
-    --critical: #D40404;
-    --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
-    --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
-    --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
-    --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
-    --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
-    --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
-    line-height: inherit;
-    font-family: Inter, system-ui;
-    box-sizing: border-box;
-    border-width: 0px;
-    border-style: solid;
-    border-color: rgb(226, 232, 240);
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pan-y: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pinch-zoom: var(--tw-empty,/*!*/ /*!*/);
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: var(--tw-empty,/*!*/ /*!*/);
-    --tw-slashed-zero: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-figure: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-spacing: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-fraction: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(66 153 225 / 0.5);
-    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
-    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-opacity: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-sepia: var(--tw-empty,/*!*/ /*!*/);
-    display: block;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    z-index: -10;
-    height: 5rem;
-    width: 5rem;
-    --tw-translate-y: 50%;
-    fill: currentcolor;
-    --tw-text-opacity: 1;
-    color: rgb(100 21 255 / var(--tw-text-opacity));
-    left: 50%;
-    --tw-translate-x: -50%;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-    opacity: 0.15;
-    fill: rgb(100, 21, 255);
+.bottom__dots__svg {
+  text-size-adjust: 100%;
+  tab-size: 4;
+  --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
+  --onBackgroundLight: rgba(36, 36, 36, 0.1);
+  --background: #fff;
+  --onBackground: #242424;
+  --accent: #0f71f0;
+  --default-black: rgba(0, 0, 0, 0);
+  --backgroundShadow: rgba(0, 0, 0, 0.14);
+  --onAccent: #fff;
+  --onAccentDisabled: #b2d4fc;
+  --onBackgroundDisabled: #919191;
+  --onBackgroundSecondary: #5b5b5b;
+  --accentHighContrast: #0e68dd;
+  --backgroundButtonDisabled: rgba(68, 68, 68, 0.1);
+  --onBackgroundExtraLight: #f4f4f4;
+  --scrollTrack: #e8e8e8;
+  --scrollThumb: #a1a1a1;
+  --buttonHover: #e0e0e0;
+  --critical: #d40404;
+  --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
+  --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
+  --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
+  --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
+  --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
+  --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
+  line-height: inherit;
+  font-family: Inter, system-ui;
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pan-y: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pinch-zoom: var(--tw-empty, /*!*/ /*!*/);
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: var(--tw-empty, /*!*/ /*!*/);
+  --tw-slashed-zero: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-figure: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-spacing: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-fraction: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(66 153 225 / 0.5);
+  --tw-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-opacity: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-sepia: var(--tw-empty, /*!*/ /*!*/);
+  display: block;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: -10;
+  height: 5rem;
+  width: 5rem;
+  --tw-translate-y: 50%;
+  fill: currentcolor;
+  --tw-text-opacity: 1;
+  color: rgb(100 21 255 / var(--tw-text-opacity));
+  left: 50%;
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 0.15;
+  fill: rgb(100, 21, 255);
 }
 
 /* 
@@ -783,7 +782,7 @@ STEPS ↓
   align-items: center;
 }
 
-.steps--text{
+.steps--text {
   font-weight: 600;
   letter-spacing: 2px;
 }
@@ -796,144 +795,140 @@ STEPS ↓
   margin-top: 111px;
 }
 
-.steps--title{
+.steps--title {
   margin-top: 20px;
   font-weight: 900;
-  color: #243E63;
+  color: #243e63;
   width: 90%;
 }
 .steps--para {
   display: flex;
   width: 60%;
   color: rgb(160, 168, 177);
-
 }
 
 .steps__hero__screenshot--wrapper {
   display: flex;
   justify-content: center;
   width: 50%;
-    color: rgb(36 62 99);
-    box-sizing: border-box;
-    border-width: 0px;
-    border-style: solid;
-    border-color: rgb(226, 232, 240);
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
 
-    margin-left: 0px;
-    margin-right: 0px;
-    max-width: none;
-    position: relative;
-    flex-shrink: 0;
-    width: 50%;
-
-
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: none;
+  position: relative;
+  flex-shrink: 0;
+  width: 50%;
 }
 
 .steps__hero__screenshot--img {
   display: flex;
   width: 100%;
-
 }
 
-dots{
-      left: 50%;
-    --tw-translate-x: -50%;
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-    opacity: 0.15;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    z-index: -10;
-    height: 5rem;
-    width: 5rem;
-    --tw-translate-y: 50%;
-    fill: currentcolor;
-    --tw-text-opacity: 1;
-    color: rgb(100 21 255 / var(--tw-text-opacity));
-    display: block;
-    box-sizing: border-box;
-    border-width: 0px;
-    border-style: solid;
-    border-color: rgb(226, 232, 240);
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pan-y: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pinch-zoom: var(--tw-empty,/*!*/ /*!*/);
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: var(--tw-empty,/*!*/ /*!*/);
-    --tw-slashed-zero: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-figure: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-spacing: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-fraction: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(66 153 225 / 0.5);
-    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
-    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-opacity: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-sepia: var(--tw-empty,/*!*/ /*!*/);
-    font-family: Inter, system-ui;
-    line-height: inherit;
-    --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
-    --onBackgroundLight: rgba(36, 36, 36, 0.10);
-    --background: #FFF;
-    --onBackground: #242424;
-    --accent: #0F71F0;
-    --default-black: rgba(0, 0, 0, 0.00);
-    --backgroundShadow: rgba(0, 0, 0, 0.14);
-    --onAccent: #FFF;
-    --onAccentDisabled: #B2D4FC;
-    --onBackgroundDisabled: #919191;
-    --onBackgroundSecondary: #5B5B5B;
-    --accentHighContrast: #0E68DD;
-    --backgroundButtonDisabled: rgba(68, 68, 68, 0.10);
-    --onBackgroundExtraLight: #F4F4F4;
-    --scrollTrack: #E8E8E8;
-    --scrollThumb: #A1A1A1;
-    --buttonHover: #E0E0E0;
-    --critical: #D40404;
-    --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
-    --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
-    --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
-    --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
-    --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
-    --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
-    text-size-adjust: 100%;
-    tab-size: 4;
+dots {
+  left: 50%;
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 0.15;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: -10;
+  height: 5rem;
+  width: 5rem;
+  --tw-translate-y: 50%;
+  fill: currentcolor;
+  --tw-text-opacity: 1;
+  color: rgb(100 21 255 / var(--tw-text-opacity));
+  display: block;
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pan-y: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pinch-zoom: var(--tw-empty, /*!*/ /*!*/);
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: var(--tw-empty, /*!*/ /*!*/);
+  --tw-slashed-zero: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-figure: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-spacing: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-fraction: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(66 153 225 / 0.5);
+  --tw-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-opacity: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-sepia: var(--tw-empty, /*!*/ /*!*/);
+  font-family: Inter, system-ui;
+  line-height: inherit;
+  --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
+  --onBackgroundLight: rgba(36, 36, 36, 0.1);
+  --background: #fff;
+  --onBackground: #242424;
+  --accent: #0f71f0;
+  --default-black: rgba(0, 0, 0, 0);
+  --backgroundShadow: rgba(0, 0, 0, 0.14);
+  --onAccent: #fff;
+  --onAccentDisabled: #b2d4fc;
+  --onBackgroundDisabled: #919191;
+  --onBackgroundSecondary: #5b5b5b;
+  --accentHighContrast: #0e68dd;
+  --backgroundButtonDisabled: rgba(68, 68, 68, 0.1);
+  --onBackgroundExtraLight: #f4f4f4;
+  --scrollTrack: #e8e8e8;
+  --scrollThumb: #a1a1a1;
+  --buttonHover: #e0e0e0;
+  --critical: #d40404;
+  --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
+  --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
+  --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
+  --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
+  --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
+  --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
+  text-size-adjust: 100%;
+  tab-size: 4;
 }
 
-.steps__sub-header{
+.steps__sub-header {
   font-weight: 600;
   font-size: 20px;
   margin-top: 16px;
   margin-bottom: 16px;
 }
-
 
 .number__steps--grey {
   color: rgb(203 213 224);
@@ -942,30 +937,25 @@ dots{
   padding: 0px;
 }
 
-.step__number{
+.step__number {
   display: flex;
   list-style: none;
   padding-top: 20px;
   margin-bottom: 28px;
-
-
 }
 
-
-.steps{
+.steps {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
-.step{
+.step {
   display: flex;
   flex-direction: column;
   width: 85%;
   margin-top: 20px;
 }
-
 
 /* 
 
@@ -979,415 +969,413 @@ VALUES ↓
   align-items: center;
 }
 
-.values{
+.values {
   display: flex;
   margin-top: 40px;
   width: 65%;
 }
 
-.values__img--wrapper{
+.values__img--wrapper {
   width: 60%;
 }
 
-.values__img{
+.values__img {
   width: 100%;
 }
 
-.values__text{
+.values__text {
   width: 50%;
 }
-.values--text{
+.values--text {
   margin-bottom: 20px;
 }
-.values__sub-title{
+.values__sub-title {
   display: flex;
   align-items: center;
 }
 
-.values--para{
+.values--para {
   width: 90%;
   line-height: 26px;
   color: rgb(124, 139, 161);
   margin-top: 20px;
 }
 
-.value--para{
+.value--para {
   line-height: 26px;
   padding-top: 20px;
   width: 275px;
   color: rgb(124, 139, 161);
-
-
 }
 
-.values--title{
+.values--title {
   color: rgb(36, 62, 99);
 }
-.svg__money__sign--wrapper{
-      text-size-adjust: 100%;
-    tab-size: 4;
-    --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
-    --onBackgroundLight: rgba(36, 36, 36, 0.10);
-    --background: #FFF;
-    --onBackground: #242424;
-    --accent: #0F71F0;
-    --default-black: rgba(0, 0, 0, 0.00);
-    --backgroundShadow: rgba(0, 0, 0, 0.14);
-    --onAccent: #FFF;
-    --onAccentDisabled: #B2D4FC;
-    --onBackgroundDisabled: #919191;
-    --onBackgroundSecondary: #5B5B5B;
-    --accentHighContrast: #0E68DD;
-    --backgroundButtonDisabled: rgba(68, 68, 68, 0.10);
-    --onBackgroundExtraLight: #F4F4F4;
-    --scrollTrack: #E8E8E8;
-    --scrollThumb: #A1A1A1;
-    --buttonHover: #E0E0E0;
-    --critical: #D40404;
-    --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
-    --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
-    --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
-    --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
-    --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
-    --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
-    line-height: inherit;
-    font-family: Inter, system-ui;
-    box-sizing: border-box;
-    border-style: solid;
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pan-y: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pinch-zoom: var(--tw-empty,/*!*/ /*!*/);
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: var(--tw-empty,/*!*/ /*!*/);
-    --tw-slashed-zero: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-figure: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-spacing: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-fraction: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(66 153 225 / 0.5);
-    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
-    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-opacity: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-sepia: var(--tw-empty,/*!*/ /*!*/);
-    margin-left: 0px;
-    margin-right: 14px;
-    display: inline-block;
-    flex-shrink: 0;
-    --tw-border-opacity: 1;
-    border-color: rgb(100 21 255 / var(--tw-border-opacity));
-    padding: 0.5rem;
-    text-align: center;
-    border-radius: 9999px;
-    border-width: 0px;
-    --tw-bg-opacity: 1;
-    background-color: rgb(154 230 180 / var(--tw-bg-opacity));
-    --tw-text-opacity: 1;
-    color: rgb(39 103 73 / var(--tw-text-opacity));
+.svg__money__sign--wrapper {
+  text-size-adjust: 100%;
+  tab-size: 4;
+  --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
+  --onBackgroundLight: rgba(36, 36, 36, 0.1);
+  --background: #fff;
+  --onBackground: #242424;
+  --accent: #0f71f0;
+  --default-black: rgba(0, 0, 0, 0);
+  --backgroundShadow: rgba(0, 0, 0, 0.14);
+  --onAccent: #fff;
+  --onAccentDisabled: #b2d4fc;
+  --onBackgroundDisabled: #919191;
+  --onBackgroundSecondary: #5b5b5b;
+  --accentHighContrast: #0e68dd;
+  --backgroundButtonDisabled: rgba(68, 68, 68, 0.1);
+  --onBackgroundExtraLight: #f4f4f4;
+  --scrollTrack: #e8e8e8;
+  --scrollThumb: #a1a1a1;
+  --buttonHover: #e0e0e0;
+  --critical: #d40404;
+  --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
+  --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
+  --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
+  --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
+  --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
+  --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
+  line-height: inherit;
+  font-family: Inter, system-ui;
+  box-sizing: border-box;
+  border-style: solid;
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pan-y: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pinch-zoom: var(--tw-empty, /*!*/ /*!*/);
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: var(--tw-empty, /*!*/ /*!*/);
+  --tw-slashed-zero: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-figure: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-spacing: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-fraction: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(66 153 225 / 0.5);
+  --tw-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-opacity: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-sepia: var(--tw-empty, /*!*/ /*!*/);
+  margin-left: 0px;
+  margin-right: 14px;
+  display: inline-block;
+  flex-shrink: 0;
+  --tw-border-opacity: 1;
+  border-color: rgb(100 21 255 / var(--tw-border-opacity));
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 9999px;
+  border-width: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(154 230 180 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(39 103 73 / var(--tw-text-opacity));
 }
 
-.money__sign{
-      text-size-adjust: 100%;
-    tab-size: 4;
-    --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
-    --onBackgroundLight: rgba(36, 36, 36, 0.10);
-    --background: #FFF;
-    --onBackground: #242424;
-    --accent: #0F71F0;
-    --default-black: rgba(0, 0, 0, 0.00);
-    --backgroundShadow: rgba(0, 0, 0, 0.14);
-    --onAccent: #FFF;
-    --onAccentDisabled: #B2D4FC;
-    --onBackgroundDisabled: #919191;
-    --onBackgroundSecondary: #5B5B5B;
-    --accentHighContrast: #0E68DD;
-    --backgroundButtonDisabled: rgba(68, 68, 68, 0.10);
-    --onBackgroundExtraLight: #F4F4F4;
-    --scrollTrack: #E8E8E8;
-    --scrollThumb: #A1A1A1;
-    --buttonHover: #E0E0E0;
-    --critical: #D40404;
-    --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
-    --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
-    --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
-    --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
-    --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
-    --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
-    line-height: inherit;
-    font-family: Inter, system-ui;
-    --tw-border-opacity: 1;
-    text-align: center;
-    --tw-bg-opacity: 1;
-    --tw-text-opacity: 1;
-    color: rgb(39 103 73 / var(--tw-text-opacity));
-    fill: none;
-    stroke: rgb(39, 103, 73);
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    box-sizing: border-box;
-    border-width: 0px;
-    border-style: solid;
-    border-color: rgb(226, 232, 240);
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pan-y: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pinch-zoom: var(--tw-empty,/*!*/ /*!*/);
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: var(--tw-empty,/*!*/ /*!*/);
-    --tw-slashed-zero: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-figure: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-spacing: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-fraction: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(66 153 225 / 0.5);
-    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
-    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-opacity: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-sepia: var(--tw-empty,/*!*/ /*!*/);
-    display: block;
-    height: 1.25rem;
-    width: 1.25rem;
-    color: rgb(39, 103, 73);
+.money__sign {
+  text-size-adjust: 100%;
+  tab-size: 4;
+  --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
+  --onBackgroundLight: rgba(36, 36, 36, 0.1);
+  --background: #fff;
+  --onBackground: #242424;
+  --accent: #0f71f0;
+  --default-black: rgba(0, 0, 0, 0);
+  --backgroundShadow: rgba(0, 0, 0, 0.14);
+  --onAccent: #fff;
+  --onAccentDisabled: #b2d4fc;
+  --onBackgroundDisabled: #919191;
+  --onBackgroundSecondary: #5b5b5b;
+  --accentHighContrast: #0e68dd;
+  --backgroundButtonDisabled: rgba(68, 68, 68, 0.1);
+  --onBackgroundExtraLight: #f4f4f4;
+  --scrollTrack: #e8e8e8;
+  --scrollThumb: #a1a1a1;
+  --buttonHover: #e0e0e0;
+  --critical: #d40404;
+  --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
+  --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
+  --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
+  --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
+  --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
+  --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
+  line-height: inherit;
+  font-family: Inter, system-ui;
+  --tw-border-opacity: 1;
+  text-align: center;
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  color: rgb(39 103 73 / var(--tw-text-opacity));
+  fill: none;
+  stroke: rgb(39, 103, 73);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pan-y: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pinch-zoom: var(--tw-empty, /*!*/ /*!*/);
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: var(--tw-empty, /*!*/ /*!*/);
+  --tw-slashed-zero: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-figure: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-spacing: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-fraction: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(66 153 225 / 0.5);
+  --tw-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-opacity: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-sepia: var(--tw-empty, /*!*/ /*!*/);
+  display: block;
+  height: 1.25rem;
+  width: 1.25rem;
+  color: rgb(39, 103, 73);
 }
 
-.svg__suitcase--wrapper{
-      text-size-adjust: 100%;
-      tab-size: 4;
-    --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
-    --onBackgroundLight: rgba(36, 36, 36, 0.10);
-    --background: #FFF;
-    --onBackground: #242424;
-    --accent: #0F71F0;
-    --default-black: rgba(0, 0, 0, 0.00);
-    --backgroundShadow: rgba(0, 0, 0, 0.14);
-    --onAccent: #FFF;
-    --onAccentDisabled: #B2D4FC;
-    --onBackgroundDisabled: #919191;
-    --onBackgroundSecondary: #5B5B5B;
-    --accentHighContrast: #0E68DD;
-    --backgroundButtonDisabled: rgba(68, 68, 68, 0.10);
-    --onBackgroundExtraLight: #F4F4F4;
-    --scrollTrack: #E8E8E8;
-    --scrollThumb: #A1A1A1;
-    --buttonHover: #E0E0E0;
-    --critical: #D40404;
-    --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
-    --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
-    --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
-    --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
-    --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
-    --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
-    line-height: inherit;
-    font-family: Inter, system-ui;
-    box-sizing: border-box;
-    border-style: solid;
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pan-y: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pinch-zoom: var(--tw-empty,/*!*/ /*!*/);
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: var(--tw-empty,/*!*/ /*!*/);
-    --tw-slashed-zero: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-figure: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-spacing: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-fraction: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(66 153 225 / 0.5);
-    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
-    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-opacity: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-sepia: var(--tw-empty,/*!*/ /*!*/);
-    margin-left: 0px;
-    margin-right: 10px;
-    display: inline-block;
-    flex-shrink: 0;
-    --tw-border-opacity: 1;
-    border-color: rgb(100 21 255 / var(--tw-border-opacity));
-    padding: 0.5rem;
-    text-align: center;
-    border-radius: 9999px;
-    border-width: 0px;
-    --tw-bg-opacity: 1;
-    background-color: rgb(254 178 178 / var(--tw-bg-opacity));
-    --tw-text-opacity: 1;
-    color: rgb(155 44 44 / var(--tw-text-opacity));
+.svg__suitcase--wrapper {
+  text-size-adjust: 100%;
+  tab-size: 4;
+  --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
+  --onBackgroundLight: rgba(36, 36, 36, 0.1);
+  --background: #fff;
+  --onBackground: #242424;
+  --accent: #0f71f0;
+  --default-black: rgba(0, 0, 0, 0);
+  --backgroundShadow: rgba(0, 0, 0, 0.14);
+  --onAccent: #fff;
+  --onAccentDisabled: #b2d4fc;
+  --onBackgroundDisabled: #919191;
+  --onBackgroundSecondary: #5b5b5b;
+  --accentHighContrast: #0e68dd;
+  --backgroundButtonDisabled: rgba(68, 68, 68, 0.1);
+  --onBackgroundExtraLight: #f4f4f4;
+  --scrollTrack: #e8e8e8;
+  --scrollThumb: #a1a1a1;
+  --buttonHover: #e0e0e0;
+  --critical: #d40404;
+  --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
+  --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
+  --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
+  --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
+  --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
+  --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
+  line-height: inherit;
+  font-family: Inter, system-ui;
+  box-sizing: border-box;
+  border-style: solid;
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pan-y: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pinch-zoom: var(--tw-empty, /*!*/ /*!*/);
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: var(--tw-empty, /*!*/ /*!*/);
+  --tw-slashed-zero: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-figure: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-spacing: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-fraction: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(66 153 225 / 0.5);
+  --tw-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-opacity: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-sepia: var(--tw-empty, /*!*/ /*!*/);
+  margin-left: 0px;
+  margin-right: 10px;
+  display: inline-block;
+  flex-shrink: 0;
+  --tw-border-opacity: 1;
+  border-color: rgb(100 21 255 / var(--tw-border-opacity));
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 9999px;
+  border-width: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 178 178 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(155 44 44 / var(--tw-text-opacity));
 }
 
-.suit__case{
-    height: 1.25rem;
-    width: 1.25rem;
-    display: block;
-    box-sizing: border-box;
-    border-width: 0px;
-    border-style: solid;
-    border-color: rgb(226, 232, 240);
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pan-y: var(--tw-empty,/*!*/ /*!*/);
-    --tw-pinch-zoom: var(--tw-empty,/*!*/ /*!*/);
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: var(--tw-empty,/*!*/ /*!*/);
-    --tw-slashed-zero: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-figure: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-spacing: var(--tw-empty,/*!*/ /*!*/);
-    --tw-numeric-fraction: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(66 153 225 / 0.5);
-    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
-    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-blur: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-brightness: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-contrast: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-grayscale: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-invert: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-opacity: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-saturate: var(--tw-empty,/*!*/ /*!*/);
-    --tw-backdrop-sepia: var(--tw-empty,/*!*/ /*!*/);
-    fill: none;
-    stroke: rgb(155, 44, 44);
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    --tw-bg-opacity: 1;
-    --tw-text-opacity: 1;
-    color: rgb(155 44 44 / var(--tw-text-opacity));
-    --tw-border-opacity: 1;
-    text-align: center;
-    font-family: Inter, system-ui;
-    line-height: inherit;
-    --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
-    --onBackgroundLight: rgba(36, 36, 36, 0.10);
-    --background: #FFF;
-    --onBackground: #242424;
-    --accent: #0F71F0;
-    --default-black: rgba(0, 0, 0, 0.00);
-    --backgroundShadow: rgba(0, 0, 0, 0.14);
-    --onAccent: #FFF;
-    --onAccentDisabled: #B2D4FC;
-    --onBackgroundDisabled: #919191;
-    --onBackgroundSecondary: #5B5B5B;
-    --accentHighContrast: #0E68DD;
-    --backgroundButtonDisabled: rgba(68, 68, 68, 0.10);
-    --onBackgroundExtraLight: #F4F4F4;
-    --scrollTrack: #E8E8E8;
-    --scrollThumb: #A1A1A1;
-    --buttonHover: #E0E0E0;
-    --critical: #D40404;
-    --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
-    --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
-    --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
-    --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
-    --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
-    --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
-    text-size-adjust: 100%;
-    tab-size: 4;
+.suit__case {
+  height: 1.25rem;
+  width: 1.25rem;
+  display: block;
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pan-y: var(--tw-empty, /*!*/ /*!*/);
+  --tw-pinch-zoom: var(--tw-empty, /*!*/ /*!*/);
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: var(--tw-empty, /*!*/ /*!*/);
+  --tw-slashed-zero: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-figure: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-spacing: var(--tw-empty, /*!*/ /*!*/);
+  --tw-numeric-fraction: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(66 153 225 / 0.5);
+  --tw-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-opacity: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-sepia: var(--tw-empty, /*!*/ /*!*/);
+  fill: none;
+  stroke: rgb(155, 44, 44);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  color: rgb(155 44 44 / var(--tw-text-opacity));
+  --tw-border-opacity: 1;
+  text-align: center;
+  font-family: Inter, system-ui;
+  line-height: inherit;
+  --backgroundOpacityMurky: rgba(255, 255, 255, 0.95);
+  --onBackgroundLight: rgba(36, 36, 36, 0.1);
+  --background: #fff;
+  --onBackground: #242424;
+  --accent: #0f71f0;
+  --default-black: rgba(0, 0, 0, 0);
+  --backgroundShadow: rgba(0, 0, 0, 0.14);
+  --onAccent: #fff;
+  --onAccentDisabled: #b2d4fc;
+  --onBackgroundDisabled: #919191;
+  --onBackgroundSecondary: #5b5b5b;
+  --accentHighContrast: #0e68dd;
+  --backgroundButtonDisabled: rgba(68, 68, 68, 0.1);
+  --onBackgroundExtraLight: #f4f4f4;
+  --scrollTrack: #e8e8e8;
+  --scrollThumb: #a1a1a1;
+  --buttonHover: #e0e0e0;
+  --critical: #d40404;
+  --img-logo: url(https://treact.owaiskhan.me/assets/images/logo.d1d5a0b776e710da9bf9.svg);
+  --img-completed: url(https://treact.owaiskhan.me/assets/images/status_ok.d443655b70d223250fa8.svg);
+  --img-alert: url(https://treact.owaiskhan.me/assets/images/alert.474be14797d7e695bcaf.svg);
+  --img-info: url(https://treact.owaiskhan.me/assets/images/info.56a5f71fdc727a40de66.svg);
+  --img-tooltip: url(https://treact.owaiskhan.me/assets/images/tooltip.50ab4baeb9ac63633068.svg);
+  --no-video-img: url(https://treact.owaiskhan.me/assets/images/no-video-illustration.319bd3f600c239b14382.svg);
+  text-size-adjust: 100%;
+  tab-size: 4;
 }
 
 .value__affordable {
@@ -1409,31 +1397,27 @@ PRICING ↓
   align-items: center;
 }
 
-.pricing__text{
+.pricing__text {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
-.pricing--title{
+.pricing--title {
   margin-top: 30px;
   font-weight: 900;
-  color: #243E63;
+  color: #243e63;
 }
 
-.pricing--para{
+.pricing--para {
   display: flex;
   text-align: center;
   margin-top: 30px;
 
   width: 55%;
 }
-.pricing--text{
- 
-}
 
-.plans{
+.plans {
   display: flex;
   width: 100%;
   margin-top: 40px;
@@ -1442,7 +1426,7 @@ PRICING ↓
 .plan {
   display: flex;
   flex-direction: column;
-  width: calc(100%/3);
+  width: calc(100% / 3);
   font-size: 20px;
   align-items: center;
   padding: 30px;
@@ -1450,8 +1434,11 @@ PRICING ↓
   padding-left: 0px;
   padding-right: 0px;
   margin-right: 40px;
-  box-shadow: rgba(0, 0, 0, 0) 0px, 0px, 0px, 0px;
-
+  box-shadow:
+    rgba(0, 0, 0, 0) 0px,
+    0px,
+    0px,
+    0px;
 }
 
 .personal {
@@ -1459,35 +1446,45 @@ PRICING ↓
   border-radius: 10px;
 }
 
-.green__top{
+.green__top {
   height: 8px;
   width: 100%;
-  background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);;
+  background-image: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-
 }
 
-.red__top{
+.red__top {
   height: 8px;
   width: 100%;
-  background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  background-image: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
 }
 .business {
-  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  background-image: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
   border-radius: 10px;
 }
-.plan__title{
+.plan__title {
   padding: 20px;
 }
 .price {
   font-size: 40px;
   padding-top: 0px;
-
 }
-.enterprise{
+.enterprise {
   border: solid 1px rgb(226, 232, 240);
   border-radius: 10px;
 }
@@ -1496,7 +1493,7 @@ PRICING ↓
   color: rgb(160, 174, 192);
 }
 
-.month{
+.month {
   letter-spacing: 1.6px;
   font-size: 16px;
 
@@ -1509,7 +1506,6 @@ PRICING ↓
   border-bottom: solid 1.6px rgb(226, 232, 240);
   text-align: center;
 }
-
 
 .businiess__plan__perks {
   width: 100%;
@@ -1525,17 +1521,17 @@ PRICING ↓
   border-bottom: solid 1.6px rgb(226, 232, 240);
   text-align: center;
 }
-.perk__title{
+.perk__title {
   font-size: 20px;
   font-weight: 600;
   padding: 0px;
   margin-top: 40px;
 }
 
-.perk--grey{
+.perk--grey {
   color: rgb(113, 128, 150);
 }
-.perk{
+.perk {
   text-align: center;
   font-weight: 500;
   font-size: 14px;
@@ -1543,13 +1539,11 @@ PRICING ↓
   margin-bottom: 30px;
 }
 
-
-
-.white__space{
+.white__space {
   height: 8px;
 }
 
-.button{
+.button {
   width: 50%;
   margin: 20px;
   margin-top: 40px;
@@ -1558,17 +1552,25 @@ PRICING ↓
   font-size: 14px;
 }
 
-.business__button{
+.business__button {
   color: rgb(100, 21, 255);
   background-color: rgb(247, 250, 252);
 }
 
-.personal__button{
-  background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+.personal__button {
+  background-image: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
 }
 
-.enterprise__button{
-  background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+.enterprise__button {
+  background-image: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
 }
 /* 
 
@@ -1589,6 +1591,35 @@ START / CALL TO ACTION ↓
 #start .row {
   position: relative;
   overflow: hidden;
+}
+
+.testimonials {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials__text {
+  width: 80%;
+}
+
+.testimonials__title {
+  padding: 0px;
+}
+.testimonials__img--wrapper {
+  width: 100%;
+}
+
+.testimonials__img {
+  width: 100%;
+}
+
+.star {
+  color: rgb(246, 173, 85);
+  fill: rgb(246, 173, 85);
+}
+
+.fa-star {
+  color: rgb(246, 173, 85);
 }
 
 /* 
@@ -1629,9 +1660,9 @@ MOBILE RESPONSIVENESS ↓
     padding: 80px 32px;
   }
 
-      .nav__links {
+  .nav__links {
     display: none;
-}
+  }
 }
 
 @media (max-width: 768px) {
@@ -1652,24 +1683,19 @@ MOBILE RESPONSIVENESS ↓
     display: none;
   }
 
-  .input--wrapper{
+  .input--wrapper {
     display: flex;
-
   }
 
-
-
-
-  .about-me--text--wrapper  {
+  .about-me--text--wrapper {
     width: 100%;
     align-items: center;
     text-align: center;
   }
 
-  .about-me--title{
+  .about-me--title {
     width: 640px;
   }
-
 }
 
 @media (max-width: 640px) {
@@ -1686,5 +1712,4 @@ MOBILE RESPONSIVENESS ↓
   .nav__links {
     display: none;
   }
-
 }
