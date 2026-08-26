@@ -44,6 +44,14 @@ body {
 .white {
   color: #fff;
 }
+
+.grey{
+  color: rgb(124, 139, 161);
+}
+
+.dark__grey{
+  color: rgb(74, 85, 104);
+}
 section {
   padding: 0 32px;
 }
@@ -85,6 +93,11 @@ h1 {
 
 .bold--medium {
   font-weight: 600;
+}
+
+.default-color{
+  color: rgb(36, 62, 99);
+ 
 }
 /* 
 
@@ -1543,7 +1556,7 @@ PRICING ↓
   height: 8px;
 }
 
-.button {
+.buy__button {
   width: 50%;
   margin: 20px;
   margin-top: 40px;
@@ -1582,6 +1595,117 @@ TESTIMONIALS ↓
   display: flex;
 }
 
+.testimonials__label{
+  font-weight: 700;
+  letter-spacing: 1.25px;
+}
+
+.testimonials__title{
+  font-size: 46px;
+  margin-top: 16px;
+  color: rgb(36, 62, 99);
+  margin-bottom: 16px;
+}
+
+.testimonials__para{
+  padding-bottom: 16px;
+  width: 80%
+}
+.testimonials__sub-title{
+  padding-top: 16px;
+  font-size: 20px;
+}
+.user__experience{
+  padding-top: 16px;
+  width: 80%;
+}
+.testimonials {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials__text {
+  width: 50%;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials__title {
+  padding: 0px;
+}
+.testimonials__img--wrapper {
+  width: 50%;
+}
+
+.testimonials__img {
+  width: 100%;
+}
+
+.testimonials__sub-title{
+  color: rgb(36, 62, 99);
+}
+
+.stars {
+  margin-top: 16px;
+}
+
+.fa-star {
+  color: rgb(246, 173, 85);
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+.client__img{
+  width: 80px;
+  border-radius: 50%;
+}
+
+.client__name{
+  display: flex;
+  align-items: center;
+}
+
+.client__img--wrapper{
+  overflow: hidden;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.client__description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.client__name{
+  color: rgb(36, 62, 99);
+}
+.client__company{
+  margin-top: 2px;
+  width: 150px;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  margin-left:25%;
+}
+.button{
+  background-color: rgb(237, 242, 247);
+  border-radius: 50%;
+  margin: 20px;
+  padding: 20px;
+}
+.arrow{
+  transform: scale(1.05);
+}
+.divider{
+  border-right: solid 0.8px rgb(226, 232, 240);
+  height: 30px;
+}
 /* 
 
 START / CALL TO ACTION ↓
@@ -1593,34 +1717,7 @@ START / CALL TO ACTION ↓
   overflow: hidden;
 }
 
-.testimonials {
-  display: flex;
-  align-items: center;
-}
 
-.testimonials__text {
-  width: 80%;
-}
-
-.testimonials__title {
-  padding: 0px;
-}
-.testimonials__img--wrapper {
-  width: 100%;
-}
-
-.testimonials__img {
-  width: 100%;
-}
-
-.star {
-  color: rgb(246, 173, 85);
-  fill: rgb(246, 173, 85);
-}
-
-.fa-star {
-  color: rgb(246, 173, 85);
-}
 
 /* 
 
