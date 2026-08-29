@@ -257,6 +257,9 @@ header .row {
 .about-me--para {
   margin-top: 40px;
   margin-bottom: 40px;
+  color: rgb(36, 62, 99);
+  width: 80%;
+
 }
 
 .about-me__img--wrapper--hero {
@@ -352,12 +355,14 @@ FEATURES ↓
   display: flex;
   width: calc(100% / 3);
   margin-top: 40px;
+
 }
 
 .services {
   display: flex;
-  flex-wrap: wrap;
   margin-top: 60px;
+  flex-wrap: wrap;
+
 }
 
 .service__text--wrapper {
@@ -2176,6 +2181,7 @@ footer {
 .copy-right{
   width: calc(100%/3);
   color: rgb(203, 213, 224);
+  margin-right: 30px;
 
 }
 
@@ -2579,6 +2585,14 @@ MOBILE RESPONSIVENESS ↓
 @media (max-width: 1024px) {
   .btn__menu {
     display: block;
+    background: white;
+    color: rgb(36,62,99);
+
+  }
+}
+
+  .nav__links{
+    display: none;
   }
   header .row {
     flex-direction: column;
@@ -2588,19 +2602,15 @@ MOBILE RESPONSIVENESS ↓
     padding: 80px 32px;
   }
 
-  .nav__links {
-    display: none;
-  }
-}
 
 @media (max-width: 768px) {
   #quality .row,
   #values .row {
-    flex-direction: column-reverse;
+    flex-direction: row;
   }
   #steps .row,
   #testimonials .row {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   #pricing .row {
@@ -2624,9 +2634,220 @@ MOBILE RESPONSIVENESS ↓
   .about-me--title {
     width: 640px;
   }
+ .about-me--para{
+     width: 80%;
+    text-align: center;
+
+  }
+
+  .about-me--title{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .logo-strip{
+    width: 80%;
+    align-items: center;
+  }
+  .logo-strip--wrapper{
+    width: 100%;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .about-me__img--wrapper--hero{
+    width: 100%;
+  }
+  .about-me__img{
+    width: 80%;
+  }
+
+  .service{
+    width: calc(100% / 2);
+
+  }
+
+  .service__img{
+    transform: scale(1.65);
+  }
+
+  .bottom__dots__svg{
+    transform: scaleX(1.0) scaleY(1.0) translateX(-40px) translateY(50px);
+  }
+
+  .steps{
+    width: 100%;
+  }
+  .step__numbers{
+    height: 100%;
+  }
+
+  .step__number{
+    height: calc(100%/3);
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+
+  .step{
+    margin-left: 20px;
+    height: 100%;
+  }
+
+  .steps__sub-header:first-child{
+    margin-top: 0px;
+  }
+
+  
+  .steps__sub-header:nth-child(0){
+    margin-bottom: 0px;
+  }
+  
+  .steps--para{
+    width: 100%;
+  }
+
+  .values{
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .values__sub-title{
+    padding-top: 40px;
+  }
+
+  .pricing--title{
+    text-align: center;
+  }
+
+  .plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .plan{
+    width: 50%;
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+
+  .testimonials__title{
+    width: 500px;
+    font-size: 36px;
+  }
+
+  .testimonials__para{
+    width: 100%;
+  }
+
+  .testimonials__img{
+    width: 100%;
+  }
+
+  .user__experience{
+    width: 100%;
+  }
+
+  .buttons{
+    margin-left: 0px;
+  }
+  .client__img--wrapper{
+    margin-left: 0px;
+    width: 80px;
+
+  }
+
+  .client{
+    width: 500px;
+    padding-right: 20px;
+  }
+
+
+  .button{
+    padding: 15px;
+  }
+
+  .button__left{
+    margin-left: 0px;
+  }
+
+  .button__right{
+    margin-right: 10px;
+  }
+  .call-to-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .cta__title--wrapper{
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .cta__button{
+    padding: 20px;
+  }
+
 }
 
 @media (max-width: 640px) {
+  .btn__menu {
+    display: block;
+  }
+  .values__text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+  }
+
+  .services{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .service__text--wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 0px;
+  }
+
+  .service--para{
+    width: 50%
+  }
+  .service__img--wrapper{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+  }
+  .
+  .value--para{
+    width: 100%;
+  }
+
+  .values__sub-title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
   .container {
     padding: 80px 0;
   }
@@ -2640,4 +2861,11 @@ MOBILE RESPONSIVENESS ↓
   .nav__links {
     display: none;
   }
+  .quality--text--wrapper{
+    padding-right: 10px;
+  }
+  .values__img--wrapper{
+    display: none;
+  }
+
 }
